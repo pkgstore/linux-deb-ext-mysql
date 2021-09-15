@@ -14,7 +14,6 @@ Rules-Requires-Root: no
 Package: ext-mysql
 Architecture: all
 Depends: mysql-server
-        ,${shlibs:Depends}
         ,${misc:Depends}
 Description: META-package for install and configure MySQL
  META-package for install and configure MySQL.
